@@ -2,7 +2,7 @@ NAIC Candidacy Test
 ====
 
 ## Business Requirements
-1. Implement a login/logout functionality - assume the user is already registered
+1. Implement a login/logout feature - assume the user is already registered
 2. Create a rest api service to update a User's profile
 3. Both frontend and backend must have validations
 4. OWasp Top Ten needs to be followed
@@ -25,15 +25,13 @@ NAIC Candidacy Test
 10. First, Last names are required fields
 
 ## Technology requirements
-1. Maven or Gradle for Java 8+
-2. Webpack for Angular/Sass  
-3. Front end using Twitter Bootstrap, Angular 2/4, Sass
-4. Spring MVC and Spring Security
-5. JUnit for Unit Testing in Java
+1. Frontend Angular/Angular CLI, Twitter Bootstrap, and Sass
+2. Maven for Java 8+
+3. SpringBoot, Spring Security, etc
+4. JUnit for Unit Testing in Java
+5. Bonus for Protractor tests
 6. Bonus for Selenium Testing
-7. Bonus for deploying and functioning in the cloud and functioning (AWS,Heroku)
-8. Bonus for using cloud database solution
-9. Bonus for using Spring Boot or any other Spring libraries
+7. Bonus for using Docker Compose and Docker to spin up environment
 
 ## Notes
 * Please track time it took to complete application
