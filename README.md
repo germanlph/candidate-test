@@ -5,8 +5,8 @@ NAIC Candidacy Test
 1. Implement a login/logout feature - assume the user is already registered
 2. Create a rest api service to update a User's profile
 3. Both frontend and backend must have validations
-4. OWasp Top Ten needs to be followed
-5. Frontend should tell User either successfully saved or a general error occurred
+4. OWASP Top Ten standards need to be followed needs to be followed
+5. Frontend should display to the User either successfully saved or a general error occurred
 6. If a required field is not filled out, display error with focus on field
 7. User Profile page will have a reset and submit button.
 8. User Profile page will have a header with a logout button.

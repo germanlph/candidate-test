@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7589141b-078e-401a-bb52-1a695eddaf56" name="Default Changelist" comment="" />
+    <list default="true" id="7589141b-078e-401a-bb52-1a695eddaf56" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +24,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gitignore" value="25" />
-          <entry key="md" value="221" />
-          <entry key="txt" value="122" />
+          <entry key="gitignore" value="27" />
+          <entry key="md" value="273" />
+          <entry key="txt" value="135" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="25" />
-          <entry key="Markdown" value="221" />
-          <entry key="PLAIN_TEXT" value="122" />
+          <entry key="Git file" value="27" />
+          <entry key="Markdown" value="273" />
+          <entry key="PLAIN_TEXT" value="135" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -56,11 +59,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -83,12 +86,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="495">
-                <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+              <first_editor relative-caret-position="-74">
+                <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,8 +118,8 @@
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/.gitattributes" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -163,18 +166,6 @@
               <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
               <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="codeStyles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-              <item name="copyright" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
@@ -300,7 +291,7 @@
       <option name="presentableId" value="Default" />
       <updated>1534175176876</updated>
       <workItem from="1534175178880" duration="1301000" />
-      <workItem from="1534882403311" duration="1330000" />
+      <workItem from="1534882403311" duration="2646000" />
     </task>
     <task id="LOCAL-00001" summary="moved project to root">
       <created>1534175265204</created>
@@ -330,16 +321,23 @@
       <option name="project" value="LOCAL" />
       <updated>1534884130280</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removed .idea">
+      <created>1534884489900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1534884489900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2631000" />
+    <option name="totallyTimeSpent" value="3947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -355,7 +353,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Nexus IQ" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298153" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3298153" />
       <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Atlassian " order="12" />
@@ -383,7 +381,8 @@
     <MESSAGE value="updated .gitignore" />
     <MESSAGE value="updated .gitattributes" />
     <MESSAGE value="adjusted README requirements and modified .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjusted README requirements and modified .gitignore" />
+    <MESSAGE value="removed .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed .idea" />
   </component>
   <component name="atlassian-ide-plugin-workspace-issues">
     <option name="view">
@@ -414,20 +413,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="495">
-            <caret line="33" column="67" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-74">
+            <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
