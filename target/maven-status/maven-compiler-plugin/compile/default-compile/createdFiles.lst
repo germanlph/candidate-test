@@ -1,4 +1,3 @@
-org/naic/builders/UserViewModelBuilder.class
 org/naic/repositories/UserRepo.class
 org/naic/interfaces/AccountService.class
 org/naic/models/User.class

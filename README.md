@@ -1,6 +1,16 @@
 NAIC Candidacy Test
 ====
 
+## Dependencies
+1. npm
+2. Maven
+3. Angular cli
+4. Tomcat
+
+## To run:
+1. From root run "mvn spring-boot:run & cd client && npm install && ng serve". This will run the api at localhost:8080 and the web at localhost:4200
+
+
 ## Business Requirements
 1. Implement a login/logout feature - assume the user is already registered
 2. Create a rest api service to update a User's profile
