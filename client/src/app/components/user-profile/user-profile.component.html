@@ -1,0 +1,36 @@
+<form [formGroup]="profileForm" (ngSubmit)="update()">
+  
+  <h2>User Profile</h2>
+  <div class="form-group">
+    <span class="help-block">{{outcome}}</span>
+  </div>
+
+  <div class="form-group" [ngClass]="{'has-error': profileForm.controls.firstName.errors?.required}">
+    <label for="firstName">First Name</label>
+    <input #firstName type="text" class="form-control" formControlName="firstName" placeholder="First Name">
+    <span class="help-block" *ngIf="profileForm.controls.firstName.errors?.required">required</span>
+  </div>
+  <div class="form-group" [ngClass]="{'has-error': profileForm.controls.lastName.errors?.required}">
+    <label for="lastName">Last Name</label>
+    <input #lastName type="text" class="form-control" formControlName="lastName" placeholder="Last Name">
+    <span class="help-block" *ngIf="profileForm.controls.lastName.errors?.required">required</span>
+  </div>
+  <div class="form-group" 
+  [ngClass]="{'has-error': profileForm.controls.email.errors?.required || profileForm.controls.email.errors?.email || errorObj?.email || errorObj?.emailValid || errorObj?.emailDuplicate}">
+      <label for="email">Email</label>
+      <input #email type="email" class="form-control" formControlName="email" placeholder="Email">
+      <span class="help-block" *ngIf="profileForm.controls.email.errors?.required">required</span>
+      <span class="help-block" *ngIf="profileForm.controls.email.errors?.email">invalid</span>
+      <span class="help-block" *ngIf="errorObj?.email">{{errorObj.email}}</span>
+      <span class="help-block" *ngIf="errorObj?.emailValid">{{errorObj.emailValid}}</span>
+      <span class="help-block" *ngIf="errorObj?.emailDuplicate">{{errorObj.emailDuplicate}}</span>
+    </div>
+    <div class="form-group" [ngClass]="{'has-error': profileForm.controls.phone.errors?.required || profileForm.controls.phone.errors?.validPhone}">
+      <label for="phone">Phone</label>
+      <input #phone type="text" class="form-control" formControlName="phone" placeholder="Phone">
+      <span class="help-block" *ngIf="profileForm.controls.phone.errors?.required">required</span>
+      <span class="help-block" *ngIf="profileForm.controls.phone.errors?.validPhone">invalid</span>
+    </div>
+  <button type="submit" class="btn btn-primary" [disabled]="!profileForm.dirty || profileForm.invalid">Update</button>
+  
+</form>

@@ -1,10 +1,11 @@
 /*
- * Copyright (c) 2017. National Association of Insurance Commissioners.
+ * Copyright 2018. National Association of Insurance Commissioners.
  */
 
-package org.naic;
+package org.naic.viewmodels;
 
 import java.io.Serializable;
+import java.util.Map;
 
 /**
  * User's basic profile
@@ -23,6 +24,8 @@ public class UserProfile implements Serializable
     private String state;
     private String zip;
     private String phone;       // form (###) ###-#### but save a numeric
+    private int id;
+    private Map<String, String> validationErrorMap;
 
     public String getFirstName() {
         return firstName;
@@ -104,5 +107,19 @@ public class UserProfile implements Serializable
         this.phone = phone;
     }
 
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Map<String, String> getValidationErrorMap() {
+        return validationErrorMap;
+    }
+
+    public void setValidationErrorMap(Map<String, String> validationErrorMap) {
+        this.validationErrorMap = validationErrorMap;
+    }
 }

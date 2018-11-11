@@ -1,0 +1,17 @@
+/Users/german/Projects/candidate-test/src/main/java/org/naic/Sanitizer.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/interfaces/UserService.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/repositories/UserRepo.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/interfaces/AccountService.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/models/User.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/viewmodels/UserViewModel.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/repositories/AccountRepo.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/models/Account.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/services/UserServiceImpl.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/viewmodels/LoginViewModel.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/builders/UserBuilder.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/controllers/AccountController.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/controllers/UserController.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/builders/UserViewModelBuilder.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/CandidateApplication.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/UserProfile.java
+/Users/german/Projects/candidate-test/src/main/java/org/naic/services/AccountServiceImpl.java
