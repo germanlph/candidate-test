@@ -5,15 +5,19 @@
     <span class="help-block">{{outcome}}</span>
   </div>
 
-  <div class="form-group" [ngClass]="{'has-error': profileForm.controls.firstName.errors?.required}">
+  <div class="form-group" [ngClass]="{'has-error': profileForm.controls.firstName.errors?.required || errorObj.firstName || errorObj.firstNameValid}">
     <label for="firstName">First Name</label>
     <input #firstName type="text" class="form-control" formControlName="firstName" placeholder="First Name">
     <span class="help-block" *ngIf="profileForm.controls.firstName.errors?.required">required</span>
+    <span class="help-block" *ngIf="errorObj?.firstName">{{errorObj.firstName}}</span>
+    <span class="help-block" *ngIf="errorObj?.firstNameValid">{{errorObj.firstNameValid}}</span>
   </div>
-  <div class="form-group" [ngClass]="{'has-error': profileForm.controls.lastName.errors?.required}">
+  <div class="form-group" [ngClass]="{'has-error': profileForm.controls.lastName.errors?.required || errorObj.lastName || errorObj.lastNameValid}">
     <label for="lastName">Last Name</label>
     <input #lastName type="text" class="form-control" formControlName="lastName" placeholder="Last Name">
     <span class="help-block" *ngIf="profileForm.controls.lastName.errors?.required">required</span>
+    <span class="help-block" *ngIf="errorObj?.lastName">{{errorObj.lastName}}</span>
+    <span class="help-block" *ngIf="errorObj?.lastNameValid">{{errorObj.lastNameValid}}</span>
   </div>
   <div class="form-group" 
   [ngClass]="{'has-error': profileForm.controls.email.errors?.required || profileForm.controls.email.errors?.email || errorObj?.email || errorObj?.emailValid || errorObj?.emailDuplicate}">
@@ -25,11 +29,12 @@
       <span class="help-block" *ngIf="errorObj?.emailValid">{{errorObj.emailValid}}</span>
       <span class="help-block" *ngIf="errorObj?.emailDuplicate">{{errorObj.emailDuplicate}}</span>
     </div>
-    <div class="form-group" [ngClass]="{'has-error': profileForm.controls.phone.errors?.required || profileForm.controls.phone.errors?.validPhone}">
+    <div class="form-group" [ngClass]="{'has-error': profileForm.controls.phone.errors?.required || profileForm.controls.phone.errors?.validPhone || errorObj.phone}">
       <label for="phone">Phone</label>
       <input #phone type="text" class="form-control" formControlName="phone" placeholder="Phone">
       <span class="help-block" *ngIf="profileForm.controls.phone.errors?.required">required</span>
       <span class="help-block" *ngIf="profileForm.controls.phone.errors?.validPhone">invalid</span>
+      <span class="help-block" *ngIf="errorObj?.phone">{{errorObj.phone}}</span>
     </div>
   <button type="submit" class="btn btn-primary" [disabled]="!profileForm.dirty || profileForm.invalid">Update</button>
   
