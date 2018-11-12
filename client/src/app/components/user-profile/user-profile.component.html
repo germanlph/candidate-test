@@ -28,6 +28,7 @@
       <span class="help-block" *ngIf="errorObj?.email">{{errorObj.email}}</span>
       <span class="help-block" *ngIf="errorObj?.emailValid">{{errorObj.emailValid}}</span>
       <span class="help-block" *ngIf="errorObj?.emailDuplicate">{{errorObj.emailDuplicate}}</span>
+      <span>User email@email.com to see duplicate email validation</span>
     </div>
     <div class="form-group" [ngClass]="{'has-error': profileForm.controls.phone.errors?.required || profileForm.controls.phone.errors?.validPhone || errorObj?.phone}">
       <label for="phone">Phone</label>
